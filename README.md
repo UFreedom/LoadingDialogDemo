@@ -21,7 +21,7 @@ Run in Android 2.2 +
 
 ## Usage
 
-
+```java
 LoadingPopupWindow loadingPopupWindow = new LoadingPopupWindow.Builder(context,
 				findViewById(R.id.vParent)).setLoadingInfo("Login...")
 				.setErrorInfo("Login Error").setFinishedInfo("Successful Login")
@@ -33,7 +33,7 @@ loadingPopupWindow.showFinished();
 loadingPopupWindow.showError();
 loadingPopupWindow.showCancle();
 
-
+```java
 
 
 
