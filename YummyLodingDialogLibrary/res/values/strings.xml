@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">YummyLodingDialog</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="msg_default_loading_info">正在加载...</string>
+    <string name="msg_default_finished_info">加载完毕...</string>
+    <string name="msg_default_worn_info">加载失败</string>
+    <string name="msg_default_cancle_info">已经取消</string>
+
+</resources>

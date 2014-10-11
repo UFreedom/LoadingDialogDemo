@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center" >
+
+    <FrameLayout
+        android:id="@+id/LodingPanel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="bottom|center"
+        android:orientation="horizontal" >
+
+        <RelativeLayout
+            android:id="@+id/vLodingPanel"
+            android:layout_width="160dip"
+            android:layout_height="wrap_content"
+            android:background="@drawable/window_hint_bg"
+            android:gravity="bottom|center"
+            android:minWidth="160.0dip" >
+
+            <ProgressBar
+                android:id="@+id/vProgress"
+                style="@style/largeCustomProgressBar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true" />
+
+            <TextView
+                android:id="@+id/vLodingInfo"
+                android:layout_width="160.0dip"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/vProgress"
+                android:layout_marginTop="16dp"
+                android:gravity="center"
+                android:minHeight="40.0dip"
+                android:textColor="@color/col_white"
+                android:text="@string/msg_default_loading_info"
+                android:textSize="15.0dip" />
+        </RelativeLayout>
+
+        <ImageView
+            android:id="@+id/vCancelIconsmall"
+            android:layout_width="30.0dip"
+            android:layout_height="30.0dip"
+            android:layout_marginLeft="10.0dip"
+            android:layout_marginRight="20.0dip"
+            android:background="@drawable/window_cancel_bg"
+            android:padding="7.0dip"
+            android:src="@drawable/rcd_cancel_icon"
+            android:visibility="gone" />
+
+        <RelativeLayout
+            android:id="@+id/vCanclePanel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/window_hint_bg"
+            android:gravity="center_horizontal"
+            android:minWidth="160.0dip"
+            android:orientation="vertical"
+            android:visibility="gone" >
+
+            <ImageView
+                android:id="@+id/vCancleBk"
+                android:layout_width="160.0dip"
+                android:layout_height="120.0dip"
+                android:src="@drawable/rcd_cancel_icon" />
+
+            <TextView
+                android:id="@+id/vCancleInfo"
+                android:layout_width="160.0dip"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/vCancleBk"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/rcd_cancel_bg"
+                android:gravity="center"
+                android:minHeight="40.0dip"
+                android:textColor="@color/col_white"
+                android:text="@string/msg_default_cancle_info"
+                android:textSize="15.0dip" />
+        </RelativeLayout>
+    </FrameLayout>
+
+    <LinearLayout
+        android:id="@+id/vLodingPanelMedium"
+        android:layout_width="140.0dip"
+        android:layout_height="140.0dip"
+        android:background="@drawable/window_hint_bg"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:visibility="gone" >
+
+        <ProgressBar
+            android:id="@+id/progressBar1"
+            style="@style/mediumCustomProgressBar"
+            android:layout_width="80.0dip"
+            android:layout_height="80.0dip"
+            android:layout_gravity="center" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/vErrorPanel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/window_hint_bg"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:visibility="gone" >
+
+        <ImageView
+            android:layout_width="160.0dip"
+            android:layout_height="120.0dip"
+            android:src="@drawable/ic_popup_winodw_worn" />
+
+        <TextView
+            android:id="@+id/vErrorInfo"
+            android:layout_width="160.0dip"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:minHeight="40.0dip"
+            android:textColor="@color/col_white"
+            android:text="@string/msg_default_worn_info"
+            android:textSize="15.0dip" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/vFinishedPanel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/window_hint_bg"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:visibility="gone" >
+
+        <ImageView
+            android:layout_width="160.0dip"
+            android:layout_height="120.0dip"
+            android:src="@drawable/ic_popup_window_ok" />
+
+        <TextView
+            android:id="@+id/vFinishedInfo"
+            android:layout_width="160.0dip"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:minHeight="40.0dip"
+            android:textColor="@color/col_white"
+            android:text="@string/msg_default_finished_info"
+            android:textSize="15.0dip" />
+    </LinearLayout>
+
+</LinearLayout>
