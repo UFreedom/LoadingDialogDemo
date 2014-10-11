@@ -72,7 +72,6 @@
                 android:layout_height="wrap_content"
                 android:layout_below="@id/vCancleBk"
                 android:layout_centerHorizontal="true"
-                android:background="@drawable/rcd_cancel_bg"
                 android:gravity="center"
                 android:minHeight="40.0dip"
                 android:textColor="@color/col_white"
