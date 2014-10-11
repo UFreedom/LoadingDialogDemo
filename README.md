@@ -15,7 +15,7 @@ Run in Android 2.2 +
 
 ## Installation
 
- 1. import ResideMenu project to your workspace.
+ 1. import YummyLoadingDialogLibrary project to your workspace.
  2. make it as a dependency library project to your main project.
 <br>See the Demo
 
