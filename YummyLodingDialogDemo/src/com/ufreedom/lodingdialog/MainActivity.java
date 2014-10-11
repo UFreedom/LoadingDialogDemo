@@ -20,6 +20,7 @@ public class MainActivity extends Activity {
 		context = this;
 		
 		
+		
 		loadingPopupWindow = new LoadingPopupWindow.Builder(context,
 				findViewById(R.id.vParent))
 		        .setCancleInfo("取消啦")
