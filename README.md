@@ -4,6 +4,10 @@
 ### 中文说明请点击 [这里][1]
 
 
+
+<img src="https://github.com/UFreedom/YummyLoadingDialog/tree/master/demo.gif" width="320" height="568" />
+
+
 ## Version Migration
 
 #### V 1.0
