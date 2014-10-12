@@ -5,7 +5,7 @@
 
 
 
-<img src="https://github.com/UFreedom/YummyLoadingDialog/tree/master/demo.gif" width="320" height="568" />
+<img src="https://github.com/UFreedom/YummyLoadingDialog/blob/master/demo.gif" width="320" height="568" />
 
 
 ## Version Migration
