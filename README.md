@@ -39,8 +39,9 @@ loadingPopupWindow.showCancle();
 
 ```
 
-
-
+成员 | 联系方式  | Github
+:------|:------|:------
+UFreedom  | sunfreedom@sina.cn  | [Github](https://github.com/UFreedom) 
 
 
 
