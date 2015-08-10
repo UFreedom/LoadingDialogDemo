@@ -1,7 +1,7 @@
 
 #YummyLoadingDialog
 -------
-### 中文说明请点击 [这里][1]
+
 
 
 
